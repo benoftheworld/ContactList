@@ -1,0 +1,9 @@
+<h1>Ajouter un contact</h1>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+	<p>
+		<label>Prénom:</label>
+		<input type="text" formControlName="name">
+	</p>
+	<button type="submit"> Submit </button>
+</form>
+<a routerLink="">Accueil</a>

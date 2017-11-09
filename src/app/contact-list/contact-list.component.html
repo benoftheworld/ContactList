@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let contact of contact">
+    <a routerLink="/contact/{{contact.id}}" routerLinkActive="active">{{contact.name}}</a>
+  </li>
+</ul>
+<a routerLink="/contact/add">Ajouter une personne</a>
